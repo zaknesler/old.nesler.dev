@@ -1,100 +1,34 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="h-full">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>Laravel</title>
+    <title>Welcome &dash; {{ config('app.name') }}</title>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:400,500,600">
+    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+    <script src="{{ mix('js/app.js') }}" defer></script>
+</head>
+<body class="h-full font-sans font-normal text-base tracking-normal leading-normal bg-white text-gray-700">
+    <div id="app" class="h-full" v-cloak>
+        <div class="h-screen flex">
+            <div class="p-6 m-auto text-center font-semibold">
+                <h1 class="leading-tight text-4xl text-gray-700">{{ config('app.name') }}</h1>
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+                <ul class="mt-8 space-y-3 sm:space-y-0 sm:space-x-6 block sm:flex items-baseline text-brand-600">
+                    <li><a class="hover:text-brand-800" href="https://laravel.com/docs">Docs</a></li>
+                    <li><a class="hover:text-brand-800" href="https://laracasts.com">Laracasts</a></li>
+                    <li><a class="hover:text-brand-800" href="https://laravel-news.com">News</a></li>
+                    <li><a class="hover:text-brand-800" href="https://blog.laravel.com">Blog</a></li>
+                    <li><a class="hover:text-brand-800" href="https://nova.laravel.com">Nova</a></li>
+                    <li><a class="hover:text-brand-800" href="https://forge.laravel.com">Forge</a></li>
+                    <li><a class="hover:text-brand-800" href="https://github.com/laravel/laravel">GitHub</a></li>
+                </ul>
             </div>
         </div>
-    </body>
+    </div>
+</body>
 </html>
