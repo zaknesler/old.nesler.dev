@@ -1,20 +1,6 @@
-[v-cloak] {
-    display: none;
-}
+@import "tailwindcss/base";
 
-@tailwind base;
-@tailwind components;
+@import "tailwindcss/components";
+@import "./_markup.css";
 
-.btn {
-    @apply px-6 py-3 bg-brand-500 font-semibold text-white rounded-lg border-none appearance-none transition duration-100 transition-shadow;
-}
-
-.btn:hover {
-    @apply bg-brand-600;
-}
-
-.btn:focus {
-    @apply outline-none shadow-outline;
-}
-
-@tailwind utilities;
+@import "tailwindcss/utilities";

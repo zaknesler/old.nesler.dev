@@ -1,55 +1,38 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
-    theme: {
-        extend: {
-            colors: {
-                brand: { ...defaultTheme.colors.blue },
-            },
-
-            fontFamily: {
-                sans: [ 'Inter', ...defaultTheme.fontFamily.sans ],
-            },
-
-            boxShadow: theme => ({
-                outline: `0 0 0 3px ${theme('colors.brand.500')}60`,
-            }),
+  theme: {
+    extend: {
+      colors: {
+        brand: {
+          400: '#2f9fed',
+          500: '#2f4fed',
+          600: '#1732b8',
         },
-
-        customForms: theme => ({
-            default: {
-                'input, textarea, multiselect, select': {
-                    borderRadius: theme('borderRadius.lg'),
-                },
-
-                'input, textarea, multiselect, select, checkbox, radio': {
-                    '&:focus': {
-                        borderColor: theme('colors.brand.400'),
-                        boxShadow: theme('boxShadow.outline'),
-                        transition: 'box-shadow 100ms ease-in-out',
-                    },
-                },
-
-                'checkbox, radio': {
-                    '&:checked:focus': {
-                        borderColor: theme('colors.brand.500'),
-                        backgroundColor: theme('colors.brand.500'),
-                    },
-                },
-            },
-        }),
+      },
+      fontFamily: {
+        sans: [ 'Inter', ...defaultTheme.fontFamily.sans ],
+        heading: [ ...defaultTheme.fontFamily.sans ],
+      },
+      boxShadow: theme => ({
+        outline: `0 0 0 3px ${theme('colors.brand.500')}60`,
+      }),
+      spacing: {
+        sidebar: '10rem',
+      }
     },
-
-    variants: {},
-
-    plugins: [
-        require('@tailwindcss/custom-forms'),
-    ],
-
-    purge: [
-        './app/**/*.php',
-        './resources/**/*.vue',
-        './resources/**/*.js',
-        './resources/**/*.php',
-    ],
+    linearGradientColors: theme => ({
+      brand: [theme('colors.brand.500'), theme('colors.brand.400')],
+    }),
+  },
+  variants: {},
+  plugins: [
+    require('tailwindcss-gradients'),
+  ],
+  purge: [
+    './app/**/*.php',
+    './resources/**/*.vue',
+    './resources/**/*.js',
+    './resources/**/*.php',
+  ],
 }

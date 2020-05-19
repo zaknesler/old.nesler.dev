@@ -3,16 +3,24 @@
 use Illuminate\Support\Facades\Route;
 
 /*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+ * Pages
+ */
+Route::view('/', 'about')->name('about');
+Route::view('/projects', 'projects')->name('projects');
+Route::view('/tools', 'tools')->name('tools');
 
-Route::get('/', function () {
-    return view('welcome');
-});
+/*
+ * Tools
+ */
+Route::view('/tools/demo', 'tools/demo')->name('tools.demo');
+
+/*
+ * Resume
+ */
+Route::redirect('/resume.pdf', '/resume');
+
+Route::get('/resume', function () {
+    return response()->file(storage_path('app/resume.pdf'), [
+        'Content-Disposition' => 'inline; filename="ZakNesler_Resume_2020-05.pdf"'
+    ]);
+})->name('resume');
