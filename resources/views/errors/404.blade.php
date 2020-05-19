@@ -8,8 +8,7 @@
 
     <div class="mt-6 markup">
       <p>That page does not exist!</p>
-      <p>...or does it? Let me check again.</p>
-      <p>Nah, it doesn't. Sorry about that!</p>
+      <p>...or does it?</p>
     </div>
   </div>
 @endsection
