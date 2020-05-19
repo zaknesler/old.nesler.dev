@@ -4,7 +4,7 @@
 
 @section('content')
   <div class="text-center md:text-left">
-    <h1 class="text-6xl font-semibold text-black">404</h1>
+    <h1 class="text-6xl font-semibold text-gray-900">404</h1>
 
     <div class="mt-6 markup">
       <p>That page does not exist!</p>

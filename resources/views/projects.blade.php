@@ -3,7 +3,7 @@
 @section('title', 'Projects')
 
 @section('content')
-  <h2 class="pb-3 text-lg font-heading font-bold text-black border-b-2 border-gray-200">Projects</h2>
+  <h2 class="pb-3 text-lg font-heading font-bold text-gray-900 border-b-2 border-gray-200">Projects</h2>
 
   <div class="mt-6 markup">
     <p>Here are the repositories of some of projects that I've worked on. It should come as no surprise that many of them use Laravel, Vue.js, and Tailwind CSS.</p>

@@ -54,14 +54,14 @@
     }
 
     & strong {
-        @apply text-black font-medium;
+        @apply text-gray-900 font-medium;
     }
 
     & a {
         @apply underline text-gray-700 font-medium;
 
         &:hover {
-            @apply text-black;
+            @apply text-gray-900;
         }
     }
 

@@ -1,4 +1,4 @@
-<a href="{{ $parentUrl }}" class="text-lg font-heading font-bold text-gray-900 hover:text-black hover:underline">
+<a href="{{ $parentUrl }}" class="text-lg font-heading font-bold text-gray-900 hover:text-gray-900 hover:underline">
   <h2>{{ $parent }}</h2>
 </a>
 
