@@ -65,30 +65,18 @@
 
           <div class="my-6 mx-0 md:mx-auto md:mr-0 md:ml-auto w-12 h-1 bg-gray-200"></div>
 
-          <ul class="mt-6 space-y-5 md:space-y-2 text-base md:text-sm font-medium">
+          <ul class="space-y-5 md:space-y-2 text-base md:text-sm font-medium">
             <li>
-              <a href="{{ route('resume') }}" class="inline-flex items-center justify-end text-gray-600 hover:text-gray-900">
-                <span>Résumé</span>
-                <svg class="ml-1 w-3 h-3 opacity-75" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-              </a>
+              <a href="{{ route('resume') }}" class="text-gray-600 hover:text-gray-900">Résumé</a>
             </li>
             <li>
-              <a href="https://github.com/zaknesler" class="inline-flex items-center justify-end text-gray-600 hover:text-gray-900">
-                <span>GitHub</span>
-                <svg class="ml-1 w-3 h-3 opacity-75" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-              </a>
+              <a href="https://github.com/zaknesler" class="text-gray-600 hover:text-gray-900">GitHub</a>
             </li>
             <li>
-              <a href="https://twitter.com/zaknesler" class="inline-flex items-center justify-end text-gray-600 hover:text-gray-900">
-                <span>Twitter</span>
-                <svg class="ml-1 w-3 h-3 opacity-75" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-              </a>
+              <a href="https://twitter.com/zaknesler" class="text-gray-600 hover:text-gray-900">Twitter</a>
             </li>
             <li>
-              <a href="https://linkedin.com/in/zaknesler/" class="inline-flex items-center justify-end text-gray-600 hover:text-gray-900">
-                <span>LinkedIn</span>
-                <svg class="ml-1 w-3 h-3 opacity-75" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-              </a>
+              <a href="https://linkedin.com/in/zaknesler/" class="text-gray-600 hover:text-gray-900">LinkedIn</a>
             </li>
           </ul>
         </div>
