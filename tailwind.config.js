@@ -12,7 +12,6 @@ module.exports = {
       },
       fontFamily: {
         sans: [ 'Inter', ...defaultTheme.fontFamily.sans ],
-        heading: [ ...defaultTheme.fontFamily.sans ],
       },
       boxShadow: theme => ({
         outline: `0 0 0 3px ${theme('colors.brand.500')}60`,

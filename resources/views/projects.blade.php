@@ -3,11 +3,13 @@
 @section('title', 'Projects')
 
 @section('content')
-  <h2 class="pb-3 text-lg font-heading font-bold text-gray-900 border-b-2 border-gray-200">Projects</h2>
+  <h2 class="text-lg font-heading font-bold text-gray-900">Projects</h2>
+
+  <hr class="mt-3">
 
   <div class="mt-6 markup">
     <p>Here are the repositories of some of projects that I've worked on. It should come as no surprise that many of them use Laravel, Vue.js, and Tailwind CSS.</p>
-    <p>The others are school assignments and example programs that I made in order to better understand a language, environment, tool, or programming paradigm.</p>
+    <p class="mb-10">The others are school assignments and example programs that I made in order to better understand a language, environment, tool, or programming paradigm.</p>
 
     <h3><a href="https://github.com/zaknesler/tailwind-preset">Tailwind CSS Preset</a></h3>
     <p>An awesome minimal preset for Laravel 7+ using Tailwind CSS and Vue.js, as well as Laravel Mix and configuration for Tailwind's built-in Purge CSS. A perfect starting point for your next idea.</p>
