@@ -53,23 +53,43 @@
             </div>
           </div>
 
-          <div class="mt-3 mb-6 md:mt-6 ml-0 md:ml-auto w-32 md:w-20 h-1 bg-gradient-r-brand"></div>
+          <div class="mt-3 mb-6 md:mt-6 ml-0 md:ml-auto w-32 md:w-24 h-1 bg-gradient-r-brand"></div>
         </div>
 
         <div class="mb-6 flex-grow md:block w-full" :class="{ 'hidden': !open }">
           <ul class="space-y-5 md:space-y-2 font-medium text-lg md:text-base">
             <li><a href="{{ route('about') }}" class="{{ optional(request()->route())->getName() === 'about' ? 'font-bold text-gray-900' : 'text-gray-600' }} hover:text-gray-900">About</a></li>
             <li><a href="{{ route('projects') }}" class="{{ optional(request()->route())->getName() === 'projects' ? 'font-bold text-gray-900' : 'text-gray-600' }} hover:text-gray-900">Projects</a></li>
-            {{-- <li><a href="{{ route('tools') }}" class="{{ optional(request()->route())->getName() === 'tools' ? 'font-bold text-gray-900' : 'text-gray-600' }} hover:text-gray-900">Tools</a></li> --}}
+            <li><a href="{{ route('now') }}" class="{{ optional(request()->route())->getName() === 'now' ? 'font-bold text-gray-900' : 'text-gray-600' }} hover:text-gray-900">Now</a></li>
           </ul>
 
-          <div class="my-6 mx-0 md:mx-auto md:mr-0 md:ml-auto w-20 h-1 bg-gray-200"></div>
+          <div class="my-6 mx-0 md:mx-auto md:mr-0 md:ml-auto w-12 h-1 bg-gray-200"></div>
 
           <ul class="mt-6 space-y-5 md:space-y-2 text-base md:text-sm font-medium">
-            <li><a href="{{ route('resume') }}" class="inline-flex items-center justify-end text-gray-600 hover:text-gray-900">Résumé</a></li>
-            <li><a href="https://github.com/zaknesler" class="inline-flex items-center justify-end text-gray-600 hover:text-gray-900">GitHub</a></li>
-            <li><a href="https://twitter.com/zaknesler" class="inline-flex items-center justify-end text-gray-600 hover:text-gray-900">Twitter</a></li>
-            <li><a href="https://linkedin.com/in/zaknesler/" class="inline-flex items-center justify-end text-gray-600 hover:text-gray-900">LinkedIn</a></li>
+            <li>
+              <a href="{{ route('resume') }}" class="inline-flex items-center justify-end text-gray-600 hover:text-gray-900">
+                <span>Résumé</span>
+                <svg class="ml-1 w-3 h-3 opacity-75" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/zaknesler" class="inline-flex items-center justify-end text-gray-600 hover:text-gray-900">
+                <span>GitHub</span>
+                <svg class="ml-1 w-3 h-3 opacity-75" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/zaknesler" class="inline-flex items-center justify-end text-gray-600 hover:text-gray-900">
+                <span>Twitter</span>
+                <svg class="ml-1 w-3 h-3 opacity-75" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/in/zaknesler/" class="inline-flex items-center justify-end text-gray-600 hover:text-gray-900">
+                <span>LinkedIn</span>
+                <svg class="ml-1 w-3 h-3 opacity-75" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
