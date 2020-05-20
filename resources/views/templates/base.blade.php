@@ -35,7 +35,7 @@
 
   <div x-data="{ open: false }" class="mx-auto md:mt-12 p-6 w-full max-w-xl md:max-w-full flex flex-col md:flex-row md:justify-center">
     <div class="md:mr-12 text-left md:text-right">
-      <div class="md:w-sidebar md:pt-6 md:sticky md:top-0 flex flex-wrap md:block">
+      <div class="md:w-sidebar md:pt-6 lg:sticky lg:top-0 flex flex-wrap md:block">
         <div class="w-full">
           <div class="w-full flex md:block justify-between items-center">
             <div>
