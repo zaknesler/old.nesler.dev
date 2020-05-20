@@ -5,7 +5,7 @@
 @section('content')
   <div class="pb-3 flex items-center border-b-2 border-gray-200">
     @include('templates/partials/breadcrumbs', [
-      'parentUrl' => route('tools'),
+      'parentUrl' => '#',
       'parent' => 'Tools',
       'child' => 'Demo Tool'
     ])
@@ -29,7 +29,7 @@
       return {
         results: [],
         request() {
-          fetch('{{ route('api.tools.demo') }}', {
+          fetch('#', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json'
