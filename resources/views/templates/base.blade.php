@@ -57,27 +57,19 @@
         </div>
 
         <div class="mb-6 flex-grow md:block w-full" :class="{ 'hidden': !open }">
-          <ul class="space-y-5 md:space-y-2 font-medium text-lg md:text-base">
-            <li><a href="{{ route('about') }}" class="{{ optional(request()->route())->getName() === 'about' ? 'font-bold text-gray-900' : 'text-gray-600' }} hover:text-gray-900">About</a></li>
-            <li><a href="{{ route('projects') }}" class="{{ optional(request()->route())->getName() === 'projects' ? 'font-bold text-gray-900' : 'text-gray-600' }} hover:text-gray-900">Projects</a></li>
-            <li><a href="{{ route('now') }}" class="{{ optional(request()->route())->getName() === 'now' ? 'font-bold text-gray-900' : 'text-gray-600' }} hover:text-gray-900">Now</a></li>
+          <ul class="-mx-3 md:mx-0 space-y-1 md:space-y-2 font-medium text-lg md:text-base">
+            <li><a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'font-bold text-gray-900' : 'text-gray-600' }} hover:text-gray-900 block p-3 md:p-0 w-full hover:bg-gray-100 md:hover:bg-transparent rounded-lg md:rounded-none">About</a></li>
+            <li><a href="{{ route('projects') }}" class="{{ request()->routeIs('projects') ? 'font-bold text-gray-900' : 'text-gray-600' }} hover:text-gray-900 block p-3 md:p-0 w-full hover:bg-gray-100 md:hover:bg-transparent rounded-lg md:rounded-none">Projects</a></li>
+            <li><a href="{{ route('now') }}" class="{{ request()->routeIs('now') ? 'font-bold text-gray-900' : 'text-gray-600' }} hover:text-gray-900 block p-3 md:p-0 w-full hover:bg-gray-100 md:hover:bg-transparent rounded-lg md:rounded-none">Now</a></li>
           </ul>
 
           <div class="my-6 mx-0 md:mx-auto md:mr-0 md:ml-auto w-12 h-1 bg-gray-200"></div>
 
-          <ul class="space-y-5 md:space-y-2 text-base md:text-sm font-medium">
-            <li>
-              <a href="{{ route('resume') }}" class="text-gray-600 hover:text-gray-900">Résumé</a>
-            </li>
-            <li>
-              <a href="https://github.com/zaknesler" class="text-gray-600 hover:text-gray-900">GitHub</a>
-            </li>
-            <li>
-              <a href="https://twitter.com/zaknesler" class="text-gray-600 hover:text-gray-900">Twitter</a>
-            </li>
-            <li>
-              <a href="https://linkedin.com/in/zaknesler/" class="text-gray-600 hover:text-gray-900">LinkedIn</a>
-            </li>
+          <ul class="-mx-3 md:mx-0 space-y-1 md:space-y-2 text-base md:text-sm font-medium text-gray-600">
+            <li><a href="{{ route('resume') }}" class="hover:text-gray-900 block p-3 md:p-0 w-full hover:bg-gray-100 md:hover:bg-transparent rounded-lg md:rounded-none">Résumé</a></li>
+            <li><a href="https://github.com/zaknesler" class="hover:text-gray-900 block p-3 md:p-0 w-full hover:bg-gray-100 md:hover:bg-transparent rounded-lg md:rounded-none">GitHub</a></li>
+            <li><a href="https://twitter.com/zaknesler" class="hover:text-gray-900 block p-3 md:p-0 w-full hover:bg-gray-100 md:hover:bg-transparent rounded-lg md:rounded-none">Twitter</a></li>
+            <li><a href="https://linkedin.com/in/zaknesler/" class="hover:text-gray-900 block p-3 md:p-0 w-full hover:bg-gray-100 md:hover:bg-transparent rounded-lg md:rounded-none">LinkedIn</a></li>
           </ul>
         </div>
       </div>
