@@ -76,6 +76,18 @@
     </div>
 
     <div :class="{ 'hidden md:block': open }" class="mx-auto md:mx-0 w-full md:max-w-xl md:mt-6">
+      <div class="mb-6 px-4 py-3 bg-black text-white rounded-md flex flex-col sm:flex-row items-center justify-center sm:justify-between">
+        <div class="font-semibold text-center sm:text-left">
+          <div>Black Lives Matter</div>
+          <div class="text-xs opacity-75">The system is broken. Stop police brutality.</div>
+        </div>
+
+        <a href="https://blacklivesmatters.carrd.co" target="_blank" class="mt-3 sm:mt-0 text-xs inline-flex items-center hover:underline">
+          <span class="mr-2">How You Can Help</span>
+          <svg class="w-4 h-4 opacity-75" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+        </a>
+      </div>
+
       @yield('content')
     </div>
   </div>
