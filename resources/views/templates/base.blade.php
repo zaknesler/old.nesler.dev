@@ -82,8 +82,8 @@
           <div class="text-xs opacity-75">The system is broken. Stop police brutality.</div>
         </div>
 
-        <a href="https://blacklivesmatters.carrd.co" target="_blank" class="mt-3 sm:mt-0 text-xs inline-flex items-center hover:underline">
-          <span class="mr-2">How You Can Help</span>
+        <a href="https://blacklivesmatters.carrd.co" target="_blank" class="mt-3 px-3 py-2 sm:mt-0 text-xs font-semibold inline-flex items-center bg-white bg-opacity-25 hover:bg-opacity-100 hover:text-black rounded">
+          <span class="mr-2">Ways You Can Help</span>
           <svg class="w-4 h-4 opacity-75" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
         </a>
       </div>
