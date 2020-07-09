@@ -66,7 +66,7 @@
           <div class="my-6 mx-0 md:mx-auto md:mr-0 md:ml-auto w-12 h-1 bg-gray-200"></div>
 
           <ul class="-mx-3 md:mx-0 space-y-1 md:space-y-2 text-base md:text-sm font-medium text-gray-600">
-            <li><a href="{{ route('resume') }}" class="hover:text-gray-900 block p-3 md:p-0 w-full hover:bg-gray-100 md:hover:bg-transparent rounded-lg md:rounded-none">Résumé</a></li>
+            <li><a href="{{ route('resume') }}" class="hover:text-gray-900 block p-3 md:p-0 w-full hover:bg-gray-100 md:hover:bg-transparent rounded-lg md:rounded-none">Résumé&zwnj;</a></li>
             <li><a href="https://github.com/zaknesler" class="hover:text-gray-900 block p-3 md:p-0 w-full hover:bg-gray-100 md:hover:bg-transparent rounded-lg md:rounded-none">GitHub</a></li>
             <li><a href="https://twitter.com/zaknesler" class="hover:text-gray-900 block p-3 md:p-0 w-full hover:bg-gray-100 md:hover:bg-transparent rounded-lg md:rounded-none">Twitter</a></li>
             <li><a href="https://linkedin.com/in/zaknesler/" class="hover:text-gray-900 block p-3 md:p-0 w-full hover:bg-gray-100 md:hover:bg-transparent rounded-lg md:rounded-none">LinkedIn</a></li>
