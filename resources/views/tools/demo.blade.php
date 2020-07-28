@@ -5,19 +5,19 @@
 @section('content')
   <div class="pb-3 flex items-center border-b-2 border-gray-200">
     @include('templates/partials/breadcrumbs', [
-      'parentUrl' => '#',
+      'parentUrl' => '/tools',
       'parent' => 'Tools',
       'child' => 'Demo Tool'
     ])
   </div>
 
-  <div class="mt-6 markup" x-data="handle()" x-init="results = []">
+  <div class="mt-6 prose" x-data="handle()" x-init="results = []">
     <p>Here is the example:</p>
     <p><a href="#" x-on:click.prevent="request">Request</a></p>
 
     <ul>
       <template x-for="result in results" x-key="result.id">
-        <li x-text="result.employee_name"></li>
+        <li x-text="result.name"></li>
       </template>
     </ul>
   </div>
@@ -29,18 +29,15 @@
       return {
         results: [],
         request() {
-          fetch('#', {
-            method: 'POST',
+          fetch('https://jsonplaceholder.typicode.com/users', {
+            method: 'GET',
             headers: {
               'Content-Type': 'application/json'
             },
-            body: JSON.stringify({
-              foo: 'bar'
-            })
           })
             .then(response => response.json())
             .then(data => {
-              this.results = data.data
+              this.results = data
             })
         }
       }
