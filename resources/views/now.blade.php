@@ -3,11 +3,11 @@
 @section('title', 'Now')
 
 @section('content')
-  <h3 class="text-gray-900">Now</h3>
+  <h3>Now</h3>
 
   <hr class="mt-2">
 
-  <div class="mt-6 markup">
+  <div class="mt-6 prose">
     <h4>College</h4>
     <p>This year I finished my second year of my B.S. degree in Computer Science. My CS classes this year focused on creating data structures using Java and C++, such as trees, graphs, linked lists, queues, and stacks.</p>
 
