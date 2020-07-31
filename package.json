@@ -12,7 +12,7 @@
     "devDependencies": {
         "@tailwindcss/typography": "^0.1",
         "alpinejs": "^2.5",
-        "autoprefixer": "^9.8",
+        "autoprefixer": "^9.8.6",
         "cross-env": "^7.0",
         "laravel-mix": "^5.0",
         "postcss-import": "^12.0",
