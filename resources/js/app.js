@@ -1,3 +1,3 @@
 import 'alpinejs'
 
-// import './prism.js'
+// import './prism.min.js'

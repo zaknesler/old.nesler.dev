@@ -33,18 +33,24 @@ module.exports = {
         css: {
           color: theme('colors.gray.700'),
           a: {
-            color: theme('colors.gray.700'),
-            fontWeight: theme('fontWeight.medium'),
+            color: theme('colors.gray.900'),
+            fontWeight: theme('fontWeight.semibold'),
             '&:hover': {
               color: theme('colors.black'),
             },
           },
-          'h1, h2, h3, h4, h5, h6': {
+          'p': {
             a: {
-              color: theme('colors.gray.900'),
-              fontWeight: theme('fontWeight.semibold'),
+              color: theme('colors.gray.800'),
+              fontWeight: theme('fontWeight.medium'),
             },
           },
+          'h4': {
+            marginBottom: theme('spacing.3'),
+          },
+          'ul > li p': {
+            marginTop: theme('spacing.1'),
+          }
         },
       },
     }),

@@ -61,6 +61,7 @@
             <li><a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'font-bold text-gray-900' : 'text-gray-600' }} hover:text-gray-900 block p-3 md:p-0 w-full hover:bg-gray-100 md:hover:bg-transparent rounded-lg md:rounded-none">About</a></li>
             <li><a href="{{ route('projects') }}" class="{{ request()->routeIs('projects') ? 'font-bold text-gray-900' : 'text-gray-600' }} hover:text-gray-900 block p-3 md:p-0 w-full hover:bg-gray-100 md:hover:bg-transparent rounded-lg md:rounded-none">Projects</a></li>
             <li><a href="{{ route('now') }}" class="{{ request()->routeIs('now') ? 'font-bold text-gray-900' : 'text-gray-600' }} hover:text-gray-900 block p-3 md:p-0 w-full hover:bg-gray-100 md:hover:bg-transparent rounded-lg md:rounded-none">Now</a></li>
+            <li><a href="{{ route('uses') }}" class="{{ request()->routeIs('uses') ? 'font-bold text-gray-900' : 'text-gray-600' }} hover:text-gray-900 block p-3 md:p-0 w-full hover:bg-gray-100 md:hover:bg-transparent rounded-lg md:rounded-none">Uses</a></li>
           </ul>
 
           <div class="my-6 mx-0 md:mx-auto md:mr-0 md:ml-auto w-12 h-1 bg-gray-200"></div>
