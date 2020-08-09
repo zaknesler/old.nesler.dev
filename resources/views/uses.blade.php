@@ -18,6 +18,7 @@
         <a href="https://code.visualstudio.com/">Visual Studio Code</a>
         <p>I recently started using VS Code as my main editor, and I am quickly falling in love. It is highly customizable and has a huge community developing for it. I use <a href="https://marketplace.visualstudio.com/items?itemName=rahmanyerli.ra-spring">Ra Spring</a> as my light theme and <a href="https://marketplace.visualstudio.com/items?itemName=emroussel.atomize-atom-one-dark-theme">Atomize</a> as my dark theme.</p>
       </li>
+
       <li>
         <a href="https://sublimetext.com">Sublime Text 3</a>
         <p>For the longest time, Sublime has been my editor of choice, and to this day nothing comes close to its speed. I use a <a href="https://gist.github.com/zaknesler/436c4d7e6c607321e2a56de9e28795e8">highly-customized</a> theme for <a href="https://github.com/Krypto/sublime-da-ui">DA UI</a>, and my favorite color scheme is DA Light, found in <a href="https://github.com/Krypto/sublime-da-cs">DA CS</a>. For quickly editing files, I still use Sublime and will forever stand by my $70 purchase.</p>
