@@ -9,7 +9,7 @@
 
   <div class="mt-6 prose">
     <p>This is a collection of software, hardware, and websites I use on a daily basis. More than anything, this is a place for me to keep track of everything I use and to act as a catalog if I need to look something up in the future.</p>
-    <p>There are definitely a lot of superlatives on this page, but it is only because most of the tools I use are the result of years of searching, switching, and customizing until I have found the absolute best for myself.</p>
+    <p>There are a lot of superlatives on this page, but it is only because most of the tools I use are the result of years of searching, switching, and customizing until I have found the absolute best for my workflow.</p>
 
     <h4>Development</h4>
 
@@ -21,11 +21,23 @@
 
       <li>
         <a href="https://sublimetext.com">Sublime Text 3</a>
-        <p>For the longest time, Sublime has been my editor of choice, and to this day nothing comes close to its speed. I use a <a href="https://gist.github.com/zaknesler/436c4d7e6c607321e2a56de9e28795e8">highly-customized</a> theme for <a href="https://github.com/Krypto/sublime-da-ui">DA UI</a>, and my favorite color scheme is DA Light, found in <a href="https://github.com/Krypto/sublime-da-cs">DA CS</a>. For quickly editing files, I still use Sublime and will forever stand by my $70 purchase.</p>
+        <p>For the longest time, Sublime has been my editor of choice, and to this day nothing comes close to its speed. I use a <a href="https://gist.github.com/zaknesler/436c4d7e6c607321e2a56de9e28795e8">highly-customized</a>, minimal theme for <a href="https://github.com/Krypto/sublime-da-ui">DA UI</a>, and my favorite color scheme is DA Light, found in <a href="https://github.com/Krypto/sublime-da-cs">DA CS</a>. I will forever stand by my $70 purchase.</p>
       </li>
       <li>
         <a href="https://brave.com">Brave</a>
         <p>I switched to Brave from Chrome for privacy reasons, after multiple failed attempts at trying Firefox. It feels like Chrome without the privacy issues, just be sure turn off the silly Brave Rewards feature.</p>
+      </li>
+      <li>
+        <a href="https://figma.com">Figma</a>
+        <p>Hands-down the best design tool you can use, plus it's web-based and collaborative.</p>
+      </li>
+      <li>
+        <a href="https://laravel.com/docs/valet">Laravel Valet</a>
+        <p>Super fast and lightweight local development environment. Amazing solution for Mac developers.</p>
+      </li>
+      <li>
+        <a href="https://laragon.org">Laragon</a>
+        <p>The most compact and simplified solution for web development on Windows.</p>
       </li>
       <li>
         <a href="https://iterm2.com">iTerm 2</a>
@@ -34,18 +46,6 @@
       <li>
         <a href="https://cmder.net">Cmder</a>
         <p>Console emulator for Windows. It's a superb experience on an otherwise developer-unfriendly OS.</p>
-      </li>
-      <li>
-        <a href="https://figma.com">Figma</a>
-        <p>Hands-down the best design tool you can use, plus it's web-based and collaborative.</p>
-      </li>
-      <li>
-        <a href="https://laravel.com/docs/valet">Laravel Valet</a>
-        <p>Super fast and lightweight. Amazing solution for Mac developers.</p>
-      </li>
-      <li>
-        <a href="https://laragon.org">Laragon</a>
-        <p>Probably the most compact solution for web development on Windows.</p>
       </li>
     </ul>
 
@@ -90,12 +90,12 @@
         <p>Speechless. I couldn't imagine my life without 1Password.</p>
       </li>
       <li>
-        <a href="https://fastmail.com">FastMail</a>
-        <p>I use this to handle my domain email addresses. $50 a year for virtually unlimited domains and aliases, such a great deal.</p>
+        <a href="https://bear.app">Bear</a>
+        <p>I use Bear because I am a huge fan of Markdown! I take all of my notes for college with this.</p>
       </li>
       <li>
-        <a href="https://nordvpn.com">NordVPN</a>
-        <p>Reputable, fast, inexpensive. I'm always connected to a VPN and you should be as well.</p>
+        <a href="https://fastmail.com">FastMail</a>
+        <p>I use this to handle my domain email addresses. $50 a year for virtually unlimited domains and aliases, such a great deal.</p>
       </li>
     </ul>
 
@@ -103,16 +103,20 @@
 
     <ul>
       <li>
+        <a href="https://nordvpn.com">NordVPN</a>
+        <p>Reputable, fast, inexpensive. I'm always connected to a VPN and you should be as well.</p>
+      </li>
+      <li>
         <a href="https://one.google.com">Google One</a>
-        <p>I use Google One (Google Drive) for backing up important data, including my dotfiles that are symlinked to my local drive. Definitely worth it.</p>
+        <p>I use Google One (Google Drive) for backing up important data, including my dotfiles that are symlinked to my local drive.</p>
       </li>
       <li>
         <a href="https://winmerge.org/">WinMerge</a>
-        <p>Incredibly useful program for maintaining backups on external drives. It can diff files and directories and only copy over changed/new files. Very helpful!</p>
+        <p>Incredibly useful program for maintaining backups on external drives. It can diff files and directories and only copy over changed/new files.</p>
       </li>
       <li>
         <a href="https://plex.tv">Plex</a>
-        <p>Great media streaming solution. Cable/Satellite/Streaming is dead. Buy your favorite shows and movies and own them forever.</p>
+        <p>A great media streaming solution. Cable/Satellite/Streaming is pretty much dead. Buy your favorite shows and movies and own them forever.</p>
       </li>
       <li>
         <a href="https://foobar2000.com">Foobar2000</a>
@@ -133,7 +137,7 @@
       </li>
       <li>
         <strong>Custom Windows 10 PC</strong>
-        <p>I built this PC in ~2014 and I've been slowly upgrading its specs ever since; I've put quite a lot of work into it and I am quite proud of it!</p>
+        <p>I built this PC in ~2014 and I've been slowly upgrading its specs ever since; it's something I've put quite a lot of work into, and I am very happy with it!</p>
 
         <h5 class="-mb-1">Specs</h5>
         <ul class="leading-snug">
