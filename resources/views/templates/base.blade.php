@@ -31,7 +31,7 @@
   @yield('scripts')
 </head>
 <body class="font-sans font-normal text-base tracking-normal leading-normal bg-white text-gray-700">
-  <div class="block w-full h-3 bg-gradient-r-brand"></div>
+  <div class="block w-full h-3 bg-gradient-to-r from-brand-500 to-brand-400"></div>
 
   <div x-data="{ open: false }" class="mx-auto md:mt-12 p-6 w-full max-w-xl md:max-w-full flex flex-col md:flex-row md:justify-center">
     <div class="md:mr-12 text-left md:text-right">

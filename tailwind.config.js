@@ -10,25 +10,17 @@ module.exports = {
           600: '#1732b8',
         },
       },
-
       fontFamily: {
-        sans: [ 'Inter', ...defaultTheme.fontFamily.sans ],
+        sans: ['Inter', ...defaultTheme.fontFamily.sans],
       },
-
       boxShadow: theme => ({
         outline: `0 0 0 3px ${theme('colors.brand.500')}60`,
       }),
-
       spacing: {
         sidebar: '10rem',
-      }
+      },
     },
-
-    linearGradientColors: theme => ({
-      brand: [theme('colors.brand.500'), theme('colors.brand.400')],
-    }),
-
-    typography: (theme) => ({
+    typography: theme => ({
       default: {
         css: {
           color: theme('colors.gray.700'),
@@ -39,36 +31,25 @@ module.exports = {
               color: theme('colors.black'),
             },
           },
-          'p': {
+          p: {
             a: {
               color: theme('colors.gray.800'),
               fontWeight: theme('fontWeight.medium'),
             },
           },
-          'h4': {
+          h4: {
             marginBottom: theme('spacing.3'),
           },
           'ul > li p': {
             marginTop: theme('spacing.1'),
-          }
+          },
         },
       },
     }),
   },
-
   variants: {
     typography: [],
   },
-
-  plugins: [
-    require('tailwindcss-gradients'),
-    require('@tailwindcss/typography'),
-  ],
-
-  purge: [
-    './app/**/*.php',
-    './resources/**/*.vue',
-    './resources/**/*.js',
-    './resources/**/*.php',
-  ],
+  plugins: [require('@tailwindcss/typography')],
+  purge: ['./app/**/*.php', './resources/**/*.vue', './resources/**/*.js', './resources/**/*.php'],
 }
