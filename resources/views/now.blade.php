@@ -1,8 +1,4 @@
-@extends('templates/base')
-
-@section('title', 'Now')
-
-@section('content')
+<x-template.base title="Now">
   <h3>Now</h3>
 
   <hr class="mt-2">
@@ -19,4 +15,4 @@
     <p>After becoming addicted to Blender and devouring all the content I could, I switched over to learning traditional and digital art. This year I have been practicing gesture, figure drawing, and anatomy.</p>
     <p>I plan on continuing my journey into art as a side hobby slowly and surely, practicing a little bit every day. I've discovered a creative side that I didn't know I had.</p>
   </div>
-@endsection
+</x-template.base>

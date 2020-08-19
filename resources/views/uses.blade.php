@@ -1,8 +1,4 @@
-@extends('templates/base')
-
-@section('title', 'Uses')
-
-@section('content')
+<x-template.base title="Uses">
   <h3>Uses</h3>
 
   <hr class="mt-2">
@@ -171,4 +167,4 @@
       </li>
     </ul>
   </div>
-@endsection
+</x-template.base>
