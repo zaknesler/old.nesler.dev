@@ -9,14 +9,14 @@
 
   <div class="mt-6 prose">
     <h4>College</h4>
-    <p>This year I finished my second year of my B.S. degree in Computer Science. My CS classes this year focused on creating data structures using Java and C++, such as trees, graphs, linked lists, queues, and stacks.</p>
+    <My>This year I finished my second year of my B.S. degree in Computer Science. My CS classes this year focused on creating data structures using Java and C++, such as trees, graphs, linked lists, queues, and stacks. My Fall 2020 semester includes CS courses on Theory of Computation and Algorithms.</p>
 
     <h4>Web Development</h4>
-    <p>This year I hope to spend some time learning new technologies such as React, Electron, and GraphQL. I don't think I'd ever switch off of Vue.js, but I would certainly like to learn more!</p>
+    <p>This year I hope to spend some time learning new technologies such as React, Electron, GraphQL, and possibly a few other tools and languages. I don't think I'd ever switch off of Vue.js, but I would certainly like to learn more!</p>
 
     <h4>Adventures into Art</h4>
-    <p>This year I also began venturing into art, and with it I started learning <a href="https://blender.org">Blender</a>, an incredibly powerful, open-source 3D suite. I have had a blast learning about 3D modeling, physics and fluid simulations, and creating awesome scenes in general, all using free tutorials on YouTube.</p>
-    <p>As a side hobby, I plan on continuing my adventure into 3D art as well as learning traditional art, with the hope that I can create the crazy things from my imagination.</p>
-    <p>You can follow me on my <a href="https://artstation.com/zaknesler">ArtStation</a> if you would like, which is where I'll post any of the projects I work on!</p>
+    <p>In November 2019 I began my venture into art, where I started learning the basics of 3D using <a href="https://blender.org">Blender</a>, an incredibly powerful, open-source 3D suite. I have had a blast learning about 3D modeling, physics and fluid simulations, and creating awesome scenes in general, all using free tutorials on YouTube.</p>
+    <p>After becoming addicted to Blender and devouring all the content I could, I switched over to learning traditional and digital art. This year I have been practicing gesture, figure drawing, and anatomy.</p>
+    <p>I plan on continuing my journey into art as a side hobby slowly and surely, practicing a little bit every day. I've discovered a creative side that I didn't know I had.</p>
   </div>
 @endsection
