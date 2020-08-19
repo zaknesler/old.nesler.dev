@@ -1,14 +1,6 @@
-@extends('templates/base')
-
-@section('title', '404 – Page Not Found')
-
-@section('content')
+<x-template.base title="404 Not Found">
   <div class="text-center md:text-left">
-    <h1 class="text-6xl font-semibold text-gray-900">404</h1>
-
-    <div class="mt-6 markup">
-      <p>That page does not exist!</p>
-      <p>...or does it?</p>
-    </div>
+    <div class="text-3xl font-bold text-gray-900">404</div>
+    <p class="mt-3">That page does not exist!</p>
   </div>
-@endsection
+</x-template.base>
