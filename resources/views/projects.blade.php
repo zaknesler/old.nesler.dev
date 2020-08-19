@@ -1,8 +1,4 @@
-@extends('templates/base')
-
-@section('title', 'Projects')
-
-@section('content')
+<x-template.base title="Projects">
   <h3>Projects</h3>
 
   <hr class="mt-2">
@@ -20,4 +16,4 @@
     <h4><a href="https://github.com/zaknesler/java">Java</a></h4>
     <p>Code from my high school Java I (intro to Java) and Java II (Android Development) classes. These projects allowed me to understand Java more thoroughly, as well as being able to use external APIs to populate a UI.</p>
   </div>
-@endsection
+</x-template.base>
