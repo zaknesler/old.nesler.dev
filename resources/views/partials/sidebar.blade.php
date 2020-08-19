@@ -17,24 +17,24 @@
         </div>
       </div>
 
-      <div class="mt-3 mb-6 md:mt-6 ml-0 md:ml-auto w-32 md:w-24 h-1 bg-gradient-r-brand"></div>
+      <div class="mt-3 mb-6 md:mt-6 ml-0 md:ml-auto w-32 md:w-24 h-1 bg-gradient-to-r from-brand-500 to-brand-400"></div>
     </div>
 
     <div class="mb-6 flex-grow md:block w-full" :class="{ 'hidden': !open }">
       <ul class="-mx-3 md:mx-0 space-y-1 md:space-y-2 font-medium text-lg md:text-base">
-        <li><a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'font-bold text-gray-900' : 'text-gray-600' }} hover:text-gray-900 block p-3 md:p-0 w-full hover:bg-gray-100 md:hover:bg-transparent rounded-lg md:rounded-none">About</a></li>
-        <li><a href="{{ route('projects') }}" class="{{ request()->routeIs('projects') ? 'font-bold text-gray-900' : 'text-gray-600' }} hover:text-gray-900 block p-3 md:p-0 w-full hover:bg-gray-100 md:hover:bg-transparent rounded-lg md:rounded-none">Projects</a></li>
-        <li><a href="{{ route('now') }}" class="{{ request()->routeIs('now') ? 'font-bold text-gray-900' : 'text-gray-600' }} hover:text-gray-900 block p-3 md:p-0 w-full hover:bg-gray-100 md:hover:bg-transparent rounded-lg md:rounded-none">Now</a></li>
-        <li><a href="{{ route('uses') }}" class="{{ request()->routeIs('uses') ? 'font-bold text-gray-900' : 'text-gray-600' }} hover:text-gray-900 block p-3 md:p-0 w-full hover:bg-gray-100 md:hover:bg-transparent rounded-lg md:rounded-none">Uses</a></li>
+        <x-nav-item route="">About</x-nav-item>
+        <x-nav-item route="projects">Projects</x-nav-item>
+        <x-nav-item route="now">Now</x-nav-item>
+        <x-nav-item route="uses">Uses</x-nav-item>
       </ul>
 
       <div class="my-6 mx-0 md:mx-auto md:mr-0 md:ml-auto w-12 h-1 bg-gray-200"></div>
 
       <ul class="-mx-3 md:mx-0 space-y-1 md:space-y-2 text-base md:text-sm font-medium text-gray-600">
-        <li><a href="{{ route('resume') }}" class="hover:text-gray-900 block p-3 md:p-0 w-full hover:bg-gray-100 md:hover:bg-transparent rounded-lg md:rounded-none">Résumé&zwnj;</a></li>
-        <li><a href="https://github.com/zaknesler" class="hover:text-gray-900 block p-3 md:p-0 w-full hover:bg-gray-100 md:hover:bg-transparent rounded-lg md:rounded-none">GitHub</a></li>
-        <li><a href="https://twitter.com/zaknesler" class="hover:text-gray-900 block p-3 md:p-0 w-full hover:bg-gray-100 md:hover:bg-transparent rounded-lg md:rounded-none">Twitter</a></li>
-        <li><a href="https://linkedin.com/in/zaknesler/" class="hover:text-gray-900 block p-3 md:p-0 w-full hover:bg-gray-100 md:hover:bg-transparent rounded-lg md:rounded-none">LinkedIn</a></li>
+        <x-nav-item route="resume">Résumé</x-nav-item>
+        <x-nav-item href="https://github.com/zaknesler">Github</x-nav-item>
+        <x-nav-item href="https://twitter.com/zaknesler">Twitter</x-nav-item>
+        <x-nav-item href="https://linkedin.com/in/zaknesler">LinkedIn</x-nav-item>
       </ul>
     </div>
   </div>
