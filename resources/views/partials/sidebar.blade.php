@@ -22,7 +22,7 @@
 
     <div class="mb-6 flex-grow md:block w-full" :class="{ 'hidden': !open }">
       <ul class="-mx-3 md:mx-0 space-y-1 md:space-y-2 font-medium text-lg md:text-base">
-        <x-nav-item route="">About</x-nav-item>
+        <x-nav-item route="about">About</x-nav-item>
         <x-nav-item route="projects">Projects</x-nav-item>
         <x-nav-item route="now">Now</x-nav-item>
         <x-nav-item route="uses">Uses</x-nav-item>
